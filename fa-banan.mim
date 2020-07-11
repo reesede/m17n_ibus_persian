@@ -1,0 +1,140 @@
+﻿;; fa-bana.mim -- Input method for Farsi with Banan keystrokes
+;; Copyright (C) 2020 David E. Reese
+
+;; The m17n library is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU Lesser General Public License
+;; as published by the Free Software Foundation; either version 2.1 of
+;; the License, or (at your option) any later version.
+
+;; The m17n library is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; Lesser General Public License for more details.
+
+;; You should have received a copy of the GNU Lesser General Public
+;; License along with the m17n library; if not, write to the Free
+;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+(input-method fa banan)
+
+(description "Farsi input method using Banan layout.
+This is for typing Farsi by Arabic characters.
+")
+
+(title "ف")
+
+(map
+ (generic
+
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+  ("W" "ء")
+  ("A" "آ")
+  ("a" "ا")
+  ("\a" "أ")
+  ("b" "ب")
+  ("p" "پ")
+  ("t" "ت") ("tt" "ت")
+  ("c" "ث") ("cc" "ث")
+  ("j" "ج")
+  ("ch" "چ")
+  ("H" "ح") ("hh" "ح")
+  ("kh" "خ")
+  ("d" "د")
+  ("Z" "ذ")
+  ("r" "ر")
+  ("z" "ز") ("zz" "ز")
+  ("zh" "ژ")
+  ("s" "س") ("ss" "س")
+  ("sh" "ش")
+  ("S" "ص")
+  ("x" "ض")
+  ("T" "ط") ("TT" "ط")
+  ("X" "ظ")
+  ("w" "ع")
+  ("q" "غ") ("Gh" "غ") ("G" "غ") ("GG" "غ")
+  ("f" "ف")
+  ("gh" "ق") ("Q" "ق")
+  ("k" "ک") ("kk" "ک")
+  ("g" "گ") ("gg" "گ")
+  ("l" "ل")
+  ("m" "م")
+  ("n" "ن")
+  ("u" "و") ("v" "و")
+  ("V" "ؤ")
+  ("h" "ه") ("Hh" "ه")
+  ("i" "ی") ("y" "ی")
+  ("I" "ئ")
+  ("F" "إ")
+  ("D" 0x0671)
+  ("K" "ك")
+  ("Th" "ة")
+  ("Y" "ي") ("YY" "ي")
+  ("Yh" 0x0649)
+
+  ("0" "۰")
+  ("1" "۱")
+  ("2" "۲")
+  ("3" "۳")
+  ("4" "۴")
+  ("5" "۵")
+  ("6" "۶")
+  ("7" "۷")
+  ("8" "۸")
+  ("9" "۹")
+  ("/" "/")
+  ("," ",")
+  ("%" "٪")
+  ("+" "+")
+  ("-" "-")
+  ("*" "×")
+  ("\-" 0x00f7)
+  ("<" "<")
+  ("=" "=")
+  (">" ">")
+
+  ("\." 0x2026)
+  ("\<" 0x00bb)
+  ("\>" 0x00ab)
+  ("," 0x060c)
+  (";" 0x061b)
+  ("?" "؟")
+  ("_" 0x0640)
+
+  ("^" "َ")
+  ("e" "ِ")
+  ("o" "ُ")
+  ("#" "ً")
+  ("E" "ٍ")
+  ("O" "ٌ")
+  ("~" "ّ")
+  ("@" "ْ")
+  ("U" 0x0653)
+  ("`" 0x0654)
+  ("C" 0x0655)
+  ("$" 0x0670)
+
+  ("\@" “@”)
+  ("\0" “0”)
+  ("\1" “1”)
+  ("\2" “2”)
+  ("\3" “3”)
+  ("\4" “4”)
+  ("\5" “5”)
+  ("\6" “6”)
+  ("\7" “7”)
+  ("\8" “8”)
+  ("\9" “9”)
+
+
+  ))
+
+(state
+ (init
+  (generic)))
+
+;; Local Variables:
+;; mode: lisp
+;; End:
