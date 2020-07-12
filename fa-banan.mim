@@ -68,11 +68,11 @@ This is for typing Farsi by Arabic characters.
   ("i" "ی") ("y" "ی")
   ("I" "ئ")
   ("F" "إ")
-  ("D" 0x0671)
+  ("D" 0x0671)		;; Arabic Alef Wasla.
   ("K" "ك")
   ("Th" "ة")
   ("Y" "ي") ("YY" "ي")
-  ("Yh" 0x0649)
+  ("Yh" 0x0649)		;; Arabic Alef Maksura.
 
   ("0" "۰")
   ("1" "۱")
@@ -90,31 +90,31 @@ This is for typing Farsi by Arabic characters.
   ("+" "+")
   ("-" "-")
   ("*" "×")
-  ("\-" 0x00f7)
+  ("\-" 0x00f7)		;; Division sign.
   ("<" "<")
   ("=" "=")
   (">" ">")
 
-  ("\." 0x2026)
-  ("\<" 0x00bb)
-  ("\>" 0x00ab)
-  ("," 0x060c)
-  (";" 0x061b)
+  ("\." 0x2026)		;; Horizontal Ellipsis.
+  ("\<" 0x00bb)		;; Left Double Angle Quotation Marks.
+  ("\>" 0x00ab)		;; Right Double Angle Quotation Marks.
+  ("," 0x060c)		;; Arabic Comma.
+  (";" 0x061b)		;; Arabic Semicolon.
   ("?" "؟")
-  ("_" 0x0640)
+  ("_" 0x0640)		;; Arabic Tatweel.
 
-  ("^" "َ")
-  ("e" "ِ")
-  ("o" "ُ")
-  ("#" "ً")
-  ("E" "ٍ")
-  ("O" "ٌ")
-  ("~" "ّ")
-  ("@" "ْ")
-  ("U" 0x0653)
-  ("`" 0x0654)
-  ("C" 0x0655)
-  ("$" 0x0670)
+  ("^" "َ")		;; Arabic Fatha.
+  ("e" "ِ")		;; Arabic Kasra.
+  ("o" "ُ")		;; Arabic Damma.
+  ("#" "ً")		;; Arabic Fathatan.
+  ("E" "ٍ")		;; Arabic Kasratan.
+  ("O" "ٌ")		;; Arabic Dammatan.
+  ("~" "ّ")		;; Arabic Shadda.
+  ("@" "ْ")		;; Arabic Sukun.
+  ("U" 0x0653)		;; Arabic Mada.
+  ("`" 0x0654)		;; Arabic Hamza Above.
+  ("C" 0x0655)		;; Arabic Hamza Below.
+  ("$" 0x0670)		;; Arabic Letter Superscript Aleph
 
   ("\@" “@”)
   ("\0" “0”)

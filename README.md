@@ -11,4 +11,5 @@ To install, move the fa-banan.mim file to ~/.m17n.d and restart Ibus. The input 
 ## History
 
 20200710	DEReese		Published to GitHub.
+20200712	DEReese		Added comments for hex letters.
 
