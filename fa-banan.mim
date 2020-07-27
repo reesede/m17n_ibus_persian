@@ -16,6 +16,13 @@
 ;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
 
+;; The version of the Banan input method used her can be found in:
+;;	Persian Input Methods for Emacs and More Broadly Speaking
+;;	Copyright 2012 Mohsen Banen
+;;	http://www.persoarabic.org/PLPC/120036
+;;	http://mohsen.1.banan.byname.net/PLPC/120036
+;;
+
 (input-method fa banan)
 
 (description "Farsi input method using Banan layout.
@@ -30,103 +37,103 @@ This is for typing Farsi by Arabic characters.
 
 ;;;;;;;;;;;;;;;;;;;;;;
 
-  ("W" "ء")
-  ("A" "آ")
-  ("a" "ا")
-  ("\a" "أ")
-  ("b" "ب")
-  ("p" "پ")
-  ("t" "ت") ("tt" "ت")
-  ("c" "ث") ("cc" "ث")
-  ("j" "ج")
-  ("ch" "چ")
-  ("H" "ح") ("hh" "ح")
-  ("kh" "خ")
-  ("d" "د")
-  ("Z" "ذ")
-  ("r" "ر")
-  ("z" "ز") ("zz" "ز")
-  ("zh" "ژ")
-  ("s" "س") ("ss" "س")
-  ("sh" "ش")
-  ("S" "ص")
-  ("x" "ض")
-  ("T" "ط") ("TT" "ط")
-  ("X" "ظ")
-  ("w" "ع")
-  ("q" "غ") ("Gh" "غ") ("G" "غ") ("GG" "غ")
-  ("f" "ف")
-  ("gh" "ق") ("Q" "ق")
-  ("k" "ک") ("kk" "ک")
-  ("g" "گ") ("gg" "گ")
-  ("l" "ل")
-  ("m" "م")
-  ("n" "ن")
-  ("u" "و") ("v" "و")
-  ("V" "ؤ")
-  ("h" "ه") ("Hh" "ه")
-  ("i" "ی") ("y" "ی")
-  ("I" "ئ")
-  ("F" "إ")
-  ("D" 0x0671)		;; Arabic Alef Wasla.
-  ("K" "ك")
-  ("Th" "ة")
-  ("Y" "ي") ("YY" "ي")
-  ("Yh" 0x0649)		;; Arabic Alef Maksura.
+  ("W" "ء")					;; Arabic letter hamza.
+  ("A" "آ")					;; Arabic letter alef with madda above.
+  ("a" "ا")					;; Arabic letter alef.
+  ("\a" "أ")					;; Arabic letter alef with hamza above.
+  ("b" "ب")					;; Arabic letter beh.
+  ("p" "پ")					;; Arabic letter peh.
+  ("t" "ت") ("tt" "ت")				;; Arabic letter teh.
+  ("c" "ث") ("cc" "ث")				;; Arabic letter theh.
+  ("j" "ج")					;; Arabic letter jeem.
+  ("ch" "چ")					;; Arabic letter tcheh.
+  ("H" "ح") ("hh" "ح")				;; Arabic letter hah.
+  ("kh" "خ")					;; Arabic letter khah.
+  ("d" "د")					;; Arabic letter dal.
+  ("Z" "ذ")					;; Arabic letter thal.
+  ("r" "ر")					;; Arabic letter reh.
+  ("z" "ز") ("zz" "ز")				;; Arabic letter zain.
+  ("zh" "ژ")					;; Arabic letter jeh.
+  ("s" "س") ("ss" "س")				;; Arabic letter seen.
+  ("sh" "ش")					;; Arabic letter sheen.
+  ("S" "ص")					;; Arabic letter sad.
+  ("x" "ض")					;; Arabic letter dad.
+  ("T" "ط") ("TT" "ط")				;; Arabic letter tah.
+  ("X" "ظ")					;; Arabic letter zah.
+  ("w" "ع")					;; Arabic letter ain.
+  ("q" "غ") ("Gh" "غ") ("G" "غ") ("GG" "غ")	;; Arabic letter ghain.
+  ("f" "ف")					;; Arabic letter feh.
+  ("gh" "ق") ("Q" "ق")				;; Arabic letter qaf.
+  ("k" "ک") ("kk" "ک")				;; Arabic letter keheh.
+  ("g" "گ") ("gg" "گ")				;; Arabic letter gaf.
+  ("l" "ل")					;; Arabic letter lam.
+  ("m" "م")					;; Arabic letter meen.
+  ("n" "ن")					;; Arabic letter noon.
+  ("u" "و") ("v" "و")				;; Arabic letter waw.
+  ("V" "ؤ")					;; Arabic letter waw with hamza above.
+  ("h" "ه") ("Hh" "ه")				;; Arabic letter heh.
+  ("i" "ی") ("y" "ی")				;; Arabic letter Farsi yeh.
+  ("I" "ئ")					;; Arabic letter Farsi yeh with hamza above.
+  ("F" "إ")					;; Arabic letter alef with hamza below.
+  ("D" 0x0671)					;; Arabic Alef wasla.
+  ("K" "ك")					;; Arabic letter kaf.
+  ("Th" "ة")					;; Arabic letter teh marbuta.
+  ("Y" "ي") ("YY" "ي")				;; Arabic letter yeh.
+  ("Yh" 0x0649)					;; Arabic Alef Maksura.
 
-  ("0" "۰")
-  ("1" "۱")
-  ("2" "۲")
-  ("3" "۳")
-  ("4" "۴")
-  ("5" "۵")
-  ("6" "۶")
-  ("7" "۷")
-  ("8" "۸")
-  ("9" "۹")
-  ("/" "/")
-  ("," ",")
-  ("%" "٪")
-  ("+" "+")
-  ("-" "-")
-  ("*" "×")
-  ("\-" 0x00f7)		;; Division sign.
-  ("<" "<")
-  ("=" "=")
-  (">" ">")
+  ("0" "۰")					;; Extended Arabic-Indic digit zero.
+  ("1" "۱")					;; Extended Arabic-Indic digit one.
+  ("2" "۲")					;; Extended Arabic-Indic digit two.
+  ("3" "۳")					;; Extended Arabic-Indic digit three.
+  ("4" "۴")					;; Extended Arabic-Indic digit four.
+  ("5" "۵")					;; Extended Arabic-Indic digit five.
+  ("6" "۶")					;; Extended Arabic-Indic digit six.
+  ("7" "۷")					;; Extended Arabic-Indic digit seven.
+  ("8" "۸")					;; Extended Arabic-Indic digit eight.
+  ("9" "۹")					;; Extended Arabic-Indic digit nine.
+  ("/" "/")					;; Slash
+  ("," ",")					;; Western Comma
+  ("%" "٪")					;; Percent
+  ("+" "+")					;; Plus
+  ("-" "-")					;; Minus
+  ("*" "×")					;; Times
+  ("\-" 0x00f7)					;; Division sign.
+  ("<" "<")					;; Less Than
+  ("=" "=")					;; Equals
+  (">" ">")					;; Greater Than
 
-  ("\." 0x2026)		;; Horizontal Ellipsis.
-  ("\<" 0x00bb)		;; Left Double Angle Quotation Marks.
-  ("\>" 0x00ab)		;; Right Double Angle Quotation Marks.
-  ("," 0x060c)		;; Arabic Comma.
-  (";" 0x061b)		;; Arabic Semicolon.
-  ("?" "؟")
-  ("_" 0x0640)		;; Arabic Tatweel.
+  ("\." 0x2026)					;; Horizontal Ellipsis.
+  ("\<" 0x00bb)					;; Left Double Angle Quotation Marks.
+  ("\>" 0x00ab)					;; Right Double Angle Quotation Marks.
+  ("," 0x060c)					;; Arabic Comma.
+  (";" 0x061b)					;; Arabic Semicolon.
+  ("?" "؟")					;; Arabic Question Mark.
+  ("_" 0x0640)					;; Arabic Tatweel.
 
-  ("^" "َ")		;; Arabic Fatha.
-  ("e" "ِ")		;; Arabic Kasra.
-  ("o" "ُ")		;; Arabic Damma.
-  ("#" "ً")		;; Arabic Fathatan.
-  ("E" "ٍ")		;; Arabic Kasratan.
-  ("O" "ٌ")		;; Arabic Dammatan.
-  ("~" "ّ")		;; Arabic Shadda.
-  ("@" "ْ")		;; Arabic Sukun.
-  ("U" 0x0653)		;; Arabic Mada.
-  ("`" 0x0654)		;; Arabic Hamza Above.
-  ("C" 0x0655)		;; Arabic Hamza Below.
-  ("$" 0x0670)		;; Arabic Letter Superscript Aleph
+  ("^" "َ")					;; Arabic Fatha.
+  ("e" "ِ")					;; Arabic Kasra.
+  ("o" "ُ")					;; Arabic Damma.
+  ("#" "ً")					;; Arabic Fathatan.
+  ("E" "ٍ")					;; Arabic Kasratan.
+  ("O" "ٌ")					;; Arabic Dammatan.
+  ("~" "ّ")					;; Arabic Shadda.
+  ("@" "ْ")					;; Arabic Sukun.
+  ("U" 0x0653)					;; Arabic Mada.
+  ("`" 0x0654)					;; Arabic Hamza Above.
+  ("C" 0x0655)					;; Arabic Hamza Below.
+  ("$" 0x0670)					;; Arabic Letter Superscript Aleph
 
-  ("\@" “@”)
-  ("\0" “0”)
-  ("\1" “1”)
-  ("\2" “2”)
-  ("\3" “3”)
-  ("\4" “4”)
-  ("\5" “5”)
-  ("\6" “6”)
-  ("\7" “7”)
-  ("\8" “8”)
-  ("\9" “9”)
+  ("\@" “@”)					;; Commercial At
+  ("\0" “0”)					;; Digit Zero
+  ("\1" “1”)					;; Digit One
+  ("\2" “2”)					;; Digit Two
+  ("\3" “3”)					;; Digit Three
+  ("\4" “4”)					;; Digit Four
+  ("\5" “5”)					;; Digit Five
+  ("\6" “6”)					;; Digit Six
+  ("\7" “7”)					;; Digit Seven
+  ("\8" “8”)					;; Digit Eight
+  ("\9" “9”)					;; Digit Nine
 
 
   ))
