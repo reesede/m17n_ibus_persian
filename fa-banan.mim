@@ -92,7 +92,7 @@ This is for typing Farsi by Arabic characters.
   ("8" "۸")					;; Extended Arabic-Indic digit eight.
   ("9" "۹")					;; Extended Arabic-Indic digit nine.
   ("/" "/")					;; Slash
-  ("," ",")					;; Western Comma
+;;   ("," ",")					;; Western Comma
   ("%" "٪")					;; Percent
   ("+" "+")					;; Plus
   ("-" "-")					;; Minus
@@ -102,9 +102,23 @@ This is for typing Farsi by Arabic characters.
   ("=" "=")					;; Equals
   (">" ">")					;; Greater Than
 
+  (" " 0x0020)					;; Space.
+  ("." 0x002e)					;; Full Stop.
+  (":" 0x003a)					;; Colon.
+  ("!" 0x0021)					;; Exclamation Point.
   ("\." 0x2026)					;; Horizontal Ellipsis.
-  ("\<" 0x00bb)					;; Left Double Angle Quotation Marks.
-  ("\>" 0x00ab)					;; Right Double Angle Quotation Marks.
+  ("-" 0x002d)					;; Minus or Hyphen.
+  ("|" 0x007c)					;; Vertical Bar.
+  ("//" 0x002f)					;; Slash.
+  ("\\" 0x005c)					;; Backslash.
+  (")" 0x0028)					;; Arabic Open Parenthesis.
+  ("(" 0x0029)					;; Arabic Close Parenthesis.
+  ("]" 0x005b)					;; Arabic Open Bracket.
+  ("[" 0x005d)					;; Arabic Close Bracket.
+  ("}" 0x007b)					;; Arabic Open Brace.
+  ("{" 0x007d)					;; Arabic Close Brace.
+  ("\>M" 0x00bb)				;; Left Double Angle Quotation Marks.
+  ("\<N" 0x00ab)				;; Right Double Angle Quotation Marks.
   ("," 0x060c)					;; Arabic Comma.
   (";" 0x061b)					;; Arabic Semicolon.
   ("?" "؟")					;; Arabic Question Mark.
